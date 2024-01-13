@@ -1,0 +1,72 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.cabecalho_logo{
+    max-width: 150px;
+}
+.cabecalho_lista{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.lista_item{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.banner{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/marvel-cinematic-universe-artwork5k_1536523877.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_textos{
+    background-color: rgba(255, 255, 255, 0.487);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner_titulo{
+    font-size: 24px;
+    font-family: "Pacifico";
+    color: #1b1833;
+
+}
+
+.banner_detalhe{
+    color: #1b1833;
+    font-family: "Rubik Bubbles";
+    font-size: 36px;
+}
+
+.banner_botao{
+    color: white;
+    background-color: #1b1833;
+    font-family: "Pacifico";
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
